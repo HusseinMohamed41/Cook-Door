@@ -1,0 +1,338 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "images/Super Crunchy.jpg",
+      "title": "Super Crunchy Chicken Sandwich",
+      "category": "Chicken Sandwishes",
+      "description": "Spicy crispy golden chicken pieces, topped with Majorca sauce, pickled cucumber, turkey & melted mozzarella cheese",
+      "price": 145
+    },
+    {
+      "id": 2,
+      "image": "images/Shish Tawook.jpg",
+      "title": "Shish Tawook Sandwich",
+      "category": "Chicken Sandwishes",
+      "description": "Marinated chicken thighs cubes, marinated grilled vegetables (pepper pieces and onion pieces) with garlic sauce, Texas sauce, pickles",
+      "price": 150
+    },
+    {
+      "id": 3,
+      "image": "images/Chicken Friday.jpg",
+      "title": "Chicken Friday Sandwich",
+      "category": "Chicken Sandwishes",
+      "description": "Marinated chicken thigh, tossed with marinated grilled mushroom, covered with melted mozzarella cheese, Majorca sauce, pickled cucumber & caramelized onion",
+      "price": 130
+    },
+    {
+      "id": 4,
+      "image": "images/Chicken Pane.jpg",
+      "title": "Chicken Pane Sandwich",
+      "category": "Chicken Sandwishes",
+      "description": "Golden crispy and marinated chicken breasts, pickles and Majorca sauce",
+      "price": 175
+    },
+    {
+      "id": 5,
+      "image": "images/Cordon Bleu.jpg",
+      "title": "Cordon Bleu Sandwich",
+      "category": "Chicken Sandwishes",
+      "description": "Marinated breaded chicken breasts topped with smoked beef and melted mozzarella , Majorca sauce, pickled cucumber & cheddar cheese",
+      "price": 199
+    },
+    {
+      "id": 6,
+      "image": "images/Chicken Fajita.jpg",
+      "title": "Chicken Fajita Sandwich",
+      "category": "Chicken Sandwishes",
+      "description": "Slices marinated chicken thigh tossed with fajita sauce, jalapenos, onion, pickles, Majorca sauce, bell pepper and green olives",
+      "price": 145
+    },
+    {
+      "id": 7,
+      "image": "images/Grilled Chicken Breasts.jpg",
+      "title": "Grilled Chicken Breasts Sandwich",
+      "category": "Chicken Sandwishes",
+      "description": "Charbroiled marinated chicken breasts, garlic sauce, Texas sauce pickled cucumber& caramelized onion slices",
+      "price": 145
+    },
+    {
+      "id": 8,
+      "image": "images/Stuffed Chicken with Cheddar Cheese.jpg",
+      "title": "Stuffed Chicken with Cheddar Cheese Sandwich",
+      "category": "Chicken Sandwishes",
+      "description": "Stuffed chicken breasts with cheddar, Majorca sauce, pickled cucumber, lettuce",
+      "price": 145
+    },
+    {
+      "id": 9,
+      "image": "images/Sriracha Chicken.jpg",
+      "title": "Sriracha Chicken Sandwich",
+      "category": "Chicken Sandwishes",
+      "description": "Juicy lucy chicken patty with curvy lettuce, sriracha sauce, pickled gherkins in a 5 inch bun",
+      "price": 135
+    },
+    {
+      "id": 10,
+      "image": "images/Bikini Hot Dog.jpg",
+      "title": "Bikini Hot Dog Sandwich",
+      "category": "Beef Sandwiches",
+      "description": "Sliced hot dog with Mexican sauce, onion, pickled cucumber, spicy sauce, bell pepper and green olives",
+      "price": 115
+    },
+    {
+      "id": 11,
+      "image": "images/Philly Steak.jpg",
+      "title": "Philly Steak Sandwich",
+      "category": "Beef Sandwiches",
+      "description": "Steak slices with caramelized onions, colored pepper slices, curvy sauce, sriracha sauce, and pickled cucumbers in a Vienna bread",
+      "price": 235
+    },
+    {
+      "id": 12,
+      "image": "images/Fried Shrimp.jpg",
+      "title": "Fried Shrimp Sandwich",
+      "category": "Seafood Sandwiches",
+      "description": "Golden fried premium shrimp, Majorca sauce, pickled cucumber",
+      "price": 180
+    },
+    {
+      "id": 13,
+      "image": "images/Super Grilled Viagra.jpg",
+      "title": "Super Grilled Viagra Sandwich",
+      "category": "Seafood Sandwiches",
+      "description": "Grilled shrimp and grilled crab, viagra sauce, melted mozzarella cheese",
+      "price": 235
+    },
+    {
+      "id": 14,
+      "image": "images/Fried Viagra.jpg",
+      "title": "Fried Viagra Sandwich",
+      "category": "Seafood Sandwiches",
+      "description": "Fried shrimp, capers with majorca sauce, pickled cucumber, mozzarella cheese in Vienna bread",
+      "price": 235
+    },
+    {
+      "id": 15,
+      "image": "images/Cheese Burger.jpg",
+      "title": "Cheese Burger Sandwich",
+      "category": "Burger Sandwiches",
+      "description": "Grilled beef burger, ketchup, Majorca sauce, pickles, fresh onion, lettuce, fresh tomato slice & cheddar cheese slice",
+      "price": 190
+    },
+    {
+      "id": 16,
+      "image": "images/Mushroom Burger.jpg",
+      "title": "Mushroom Burger Sandwich",
+      "category": "Burger Sandwiches",
+      "description": "Grilled premium beef burger patty, curvy sauce, mushroom, caramelized onion, Texas sauce and pickles",
+      "price": 210
+    },
+    {
+      "id": 17,
+      "image": "images/Mix Grill.jpg",
+      "title": "Mix Grill Platter",
+      "category": "Special Platters",
+      "description": "4 pieces shish tawook, 2 pieces grilled chicken breasts, 2 pieces grilled kofta, grilled vegetables tomatoes, onions and spicy green peppers, served with basmati rice, French fries and coleslaw salad",
+      "price": 260
+    },
+    {
+      "id": 18,
+      "image": "images/Shish Tawook Platter.jpg",
+      "title": "Shish Tawook Platter",
+      "category": "Special Platters",
+      "description": "250 gm shish tawook, grilled vegetables: tomatoes, onions and spicy green peppers, served with basmati rice, French fries and coleslaw salad",
+      "price": 250
+    },
+    {
+      "id": 19,
+      "image": "images/Fried Shrimp Platter.jpg",
+      "title": "Fried Shrimp Platter",
+      "category": "Special Platters",
+      "description": "Golden fried shrimp, rice served with French fries and tahina",
+      "price": 365
+    },
+    {
+      "id": 20,
+      "image": "images/Beef Burger.jpg",
+      "title": "Beef Burger",
+      "category": "Kids Meals",
+      "description": "With juice, fries, toy",
+      "price": 115
+    },
+    {
+      "id": 21,
+      "image": "images/Chicken Nuggets.jpg",
+      "title": "Chicken Nuggets Kids Meal",
+      "category": "Kids Meals",
+      "description": "5 pieces of nuggets, regular fries, juice, toy",
+      "price": 115
+    },
+    {
+      "id": 22,
+      "image": "images/Chicken Pane Bucket.jpg",
+      "title": "Chicken Pane Bucket Meal",
+      "category": "Sharing Meals",
+      "description": "6 pieces of chicken panne, family fries, 3 bread, medium coleslaw box, 2 sauces",
+      "price": 420
+    },
+    {
+      "id": 23,
+      "image": "images/Snack Box.jpg",
+      "title": "Snack Box",
+      "category": "Sharing Meals",
+      "description": "10 chicken nuggets pieces, 10 onion rings pieces, 300 gm fries, 2 friskies sauce, 1 BBQ sauce and 1 ketchup",
+      "price": 220
+    },
+    {
+      "id": 24,
+      "image": "images/Super Crunchy Bucket.jpg",
+      "title": "Super Crunchy Bucket Meal",
+      "category": "Sharing Meals",
+      "description": "6 pieces of spicy crunchy chicken, family fries, 3 bread, medium coleslaw box, 2 sauces",
+      "price": 420
+    },
+    {
+      "id": 25,
+      "image": "images/Coleslaw.jpg",
+      "title": "Coleslaw",
+      "category": "Salads",
+      "price": 50
+    },
+    {
+      "id": 26,
+      "image": "images/Caesar Salad.jpg",
+      "title": "Caesar Salad",
+      "category": "Salads",
+      "price": 80
+    },
+    {
+      "id": 27,
+      "image": "images/Chicken Caesar Salad.jpg",
+      "title": "Chicken Caesar Salad",
+      "category": "Salads",
+      "price": 105
+    },
+    {
+      "id": 28,
+      "image": "images/French Fries.jpg",
+      "title": "French Fries",
+      "category": "Side Items",
+      "price": 55
+    },
+    {
+      "id": 29,
+      "image": "images/Friskies Fries.jpg",
+      "title": "Friskies Fries",
+      "category": "Side Items",
+      "price": 75
+    },
+    {
+      "id": 30,
+      "image": "images/Chocolate Fudge.jpg",
+      "title": "Chocolate Fudge",
+      "category": "Desserts",
+      "price": 59
+    },
+    {
+      "id": 31,
+      "image": "images/Red Velvet Cake.jpg",
+      "title": "Red Velvet Cake",
+      "category": "Desserts",
+      "price": 59
+    },
+    {
+      "id": 32,
+      "image": "images/Coca Cola.jpg",
+      "title": "Coca Cola",
+      "category": "Drinks",
+      "price": 33
+    },
+    {
+      "id": 33,
+      "image": "images/Sprite.jpg",
+      "title": "Sprite",
+      "category": "Drinks",
+      "price": 39
+    },
+    {
+      "id": 34,
+      "image": "images/Fanta Apple.jpg",
+      "title": "Fanta Apple",
+      "category": "Drinks",
+      "price": 39
+    },
+    {
+      "id": 35,
+      "image": "images/Mineral Water.jpg",
+      "title": "Mineral Water",
+      "category": "Drinks",
+      "price": 19
+    }
+  ],
+  "specialOffers": [
+    {
+      "id": 1,
+      "image": "images/Z Burgers Offer.jpg",
+      "title": "Z Burgers Offer",
+      "description":"Order your single Z Burger large combo for 63 EGP or double your Burger for only 20 EGP",
+      "price": 63
+    },
+    {
+      "id": 2,
+      "image": "images/Dueto large Offer.jpg",
+      "title": "Dueto large Offer",
+      "description":"Any 2 large Chicken Sandwiches + 2 Medium Fries + 2 Cola Can ",
+      "price": 239
+    },
+    {
+      "id": 3,
+      "image": "images/Happiness Offer.jpg",
+      "title": "Happiness Offer",
+      "description":"Any 2 large Chicken Sandwiches + 2 Medium Chicken Sandwiches + 1 Large Fries + 1 liter Cola ",
+      "price": 339
+    },
+    {
+      "id": 4,
+      "image": "images/Tawfeer Double Plus Box.jpg",
+      "title": "Tawfeer Double Plus Box",
+      "description":"6 Small Sandwiches of your choice comes with 1 medium Fries and 1 liter Cola",
+      "price": 249
+    },
+    {
+      "id": 5,
+      "image": "images/Tawfeer Plus Box.jpg",
+      "title": "Tawfeer Plus Box",
+      "description":"3 Small Sandwiches of your choice comes with Fries + ketchup sauce + Friskus sauce + Dessert + Cola can",
+      "price": 165
+    },
+    {
+      "id": 6,
+      "image": "images/Triple Offer.jpg",
+      "title": "Triple Offer",
+      "description":"3 Burger Offer Package (Texas Burger, Big Burger, Bacon Burger) for a 399 limited time price",
+      "price": 399
+    },
+    {
+      "id": 7,
+      "image": "images/EatAndSave.jpg",
+      "title": "Eat And Save",
+      "description":"Choose only one of this 4 sandwishes (Beef Burger , Chicken Burger , Kufta Sandwich , Strips Sandwich) for only 39 EGP",
+      "price": 39
+    },
+    {
+      "id": 8,
+      "image": "images/Bahary Mile Offer.jpg",
+      "title": "Bahary Mile Offer",
+      "description": "3 Seafood Sandwiches (Sea Crunch , Fried Shrimp , Grilled Viagra)",
+      "price": 479
+    },
+    {
+      "id": 9,
+      "image": "images/Beef Festival.jpg",
+      "title": "Beef Festival",
+      "description": "Choose Any 2 large sandwiches from (Ranchero Beef , Friday Beef , Fajita Beef) ",
+      "price": 149
+    }
+  ]
+}
