@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import { RiDiscountPercentLine } from "react-icons/ri";
 import { useNavigate } from "react-router-dom";
@@ -192,5 +193,3 @@ function Menu() {
 }
 
 export default Menu;
-
-
