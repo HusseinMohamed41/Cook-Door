@@ -1,66 +1,3 @@
-// import { useState, useEffect } from "react";
-
-// function SpecialsOffers() {
-//   const [offers, setOffers] = useState([]);
-
-//   useEffect(() => {
-//     fetch("http://localhost:4000/specialOffers")
-//       .then((res) => res.json())
-//       .then((data) => setOffers(data))
-//       .catch((err) => console.error("Failed to fetch offers:", err));
-//   }, []);
-
-//   return (
-//     <section className="container mx-auto px-6 py-12">
-//       {/* Section Header */}
-//       <div className="text-center mb-10">
-//         <h1 className="text-3xl md:text-6xl font-bold text-black">
-//           Special Offers
-//         </h1>
-//         <p className="text-[#ffcd00] mt-2">
-//           Enjoy our best deals and exclusive discounts!
-//         </p>
-//       </div>
-
-//       {/* Offers Grid */}
-//       <div className="grid grid-cols-3 gap-10 max-xl:grid-cols-2 max-md:grid-cols-1 ">
-//         {offers.length > 0 ? (
-//           offers.map((offer) => (
-//             <div
-//               key={offer.id}
-//               className="bg-white rounded-2xl shadow-md hover:shadow-lg transition p-4 flex flex-col items-center text-center"
-//             >
-//               <img
-//                 src={offer.image}
-//                 alt={offer.title}
-//                 className="w-[400px] h-[400px] max-xl:w-[350px] max-xl:h-[350px] max-sm:w-[300px] max-sm:h-[300px] object-cover rounded-xl mb-4"
-//               />
-//               <h3 className="text-xl font-semibold text-gray-800">
-//                 {offer.title}
-//               </h3>
-//               <p className="text-gray-600">{offer.description}</p>
-//               <p className="text-red-700 font-bold text-lg mt-2">
-//                 {offer.price} EGP
-//               </p>
-//               <button className="mt-4 bg-red-700 hover:bg-[#e3072e] text-white px-5 py-2 rounded-xl transition">
-//                 Offer Details
-//               </button>
-//             </div>
-//           ))
-//         ) : (
-//           <p className="col-span-3 text-center text-gray-500">
-//             No special offers available right now.
-//           </p>
-//         )}
-//       </div>
-//     </section>
-//   );
-// }
-
-// export default SpecialsOffers;
-
-
-
 import { useState, useEffect } from "react";
 
 function SpecialsOffers() {
@@ -71,7 +8,7 @@ function SpecialsOffers() {
   useEffect(() => {
     setLoading(true);
     
-    fetch("http://localhost:4000/specialOffers")
+    fetch("https://e199178e-e62a-4531-a27d-2bf65a0df7fa-00-5vi4k6a5esdc.picard.replit.dev/specialOffers")
       .then((res) => res.json())
       .then((data) => setOffers(data))
       .catch((err) => console.error("Failed to fetch offers:", err))
@@ -121,7 +58,6 @@ function SpecialsOffers() {
               <h3 className="text-xl font-semibold text-gray-800">
                 {offer.title}
               </h3>
-              {/* <p className="text-gray-600">{offer.description}</p> */}
               <p className="text-red-700 font-bold text-lg mt-2">
                 {offer.price} EGP
               </p>

@@ -29,7 +29,7 @@ function Menu() {
   useEffect(() => {
     setLoading(true);
 
-    fetch("http://localhost:4000/products")
+    fetch("https://e199178e-e62a-4531-a27d-2bf65a0df7fa-00-5vi4k6a5esdc.picard.replit.dev/products")
       .then((res) => {
         if (!res.ok) {
           throw new Error(`HTTP error! Status: ${res.status}`);
