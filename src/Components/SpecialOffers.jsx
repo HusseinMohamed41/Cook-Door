@@ -57,7 +57,7 @@ function SpecialsOffers() {
               <img
                 src={offer.image}
                 alt={offer.title}
-                className="w-[350px] h-[350px] max-xl:w-[250px] max-xl:h-[250px] max-sm:w-[400px] max-sm:h-[400px] object-cover rounded-xl mb-4"
+                className="w-[350px] h-[350px] max-xl:w-[250px] max-xl:h-[250px] max-sm:w-[300px] max-sm:h-[300px] object-cover rounded-xl mb-4"
               />
               <h3 className="text-xl font-semibold text-gray-800">
                 {offer.title}

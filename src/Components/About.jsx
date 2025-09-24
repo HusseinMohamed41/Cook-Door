@@ -1,5 +1,6 @@
 import cover1 from '../assets/images/cover1.jpg'
 import { FaLeaf, FaHamburger, FaSmileBeam } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -101,8 +102,12 @@ function About() {
         <section className="p-6 text-center">
           <h2 className="text-2xl font-semibold mb-4">Experience Cook Door Today</h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/Contact" className="px-6 py-3 bg-red-700 text-white rounded-2xl shadow-md hover:bg-[#e3072e] transition">Find a Location</a>
-            <a href="/Menu" className="px-6 py-3 bg-black text-white rounded-2xl shadow-md hover:bg-gray-800 transition">Order Now</a>
+            <Link to="/Contact" className="px-6 py-3 bg-red-700 text-white rounded-2xl shadow-md hover:bg-[#e3072e] transition">
+            Find a Location
+            </Link>
+            <Link to="/Menu" className="px-6 py-3 bg-black text-white rounded-2xl shadow-md hover:bg-gray-800 transition">
+            Order Now
+            </Link>
           </div>
         </section>
       </div>

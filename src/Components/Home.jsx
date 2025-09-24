@@ -1,6 +1,6 @@
-import { Link, } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { MdArrowRightAlt } from "react-icons/md";
-import heroPhoto2 from "../assets/images/heroPhoto2.jpg"
+import heroPhoto from "../assets/images/heroPhoto.jpg"
 import SpecialOffers from './SpecialOffers'
 
 
@@ -9,7 +9,7 @@ function Home() {
   return (
     <section className=" bg-white">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6 py-16 md:py-24">
-        
+
         {/* Left Content */}
         <div className="flex-1 text-center md:text-left mb-8 md:mb-0 max-sm:flex max-sm:flex-col max-sm:items-center">
           <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight">
@@ -45,7 +45,7 @@ function Home() {
         {/* Right Image */}
         <div className="flex-1 flex justify-center">
           <img
-            src={heroPhoto2}
+            src={heroPhoto}
             alt="Cook Door Special"
             className="rounded-3xl shadow-2xl w-full max-w-lg object-cover"
           />

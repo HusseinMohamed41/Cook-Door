@@ -28,14 +28,16 @@ function Menu() {
     }, 100);
   };
 
+
+
   useEffect(() => {
     setLoading(true);
 
     fetch("https://api.jsonbin.io/v3/b/68d46b41d0ea881f4089b3ab/latest", {
-  headers: {
-    "X-Master-Key": "$2a$10$hg990DNl3TwGhbMCFo962urVcG2Hpxy4QeZUMYBZuM3zKi1jD9tS2"
-  }
-})
+      headers: {
+        "X-Master-Key": "$2a$10$hg990DNl3TwGhbMCFo962urVcG2Hpxy4QeZUMYBZuM3zKi1jD9tS2"
+      }
+    })
       .then((res) => {
         if (!res.ok) {
           throw new Error(`HTTP error! Status: ${res.status}`);

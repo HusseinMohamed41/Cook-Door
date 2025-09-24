@@ -6,10 +6,12 @@ import Contact from './Components/Contact'
 import About from './Components/About'
 import Footer from './Components/Footer';
 import ScrollToTopButton from './Components/ScrollToTop';
+import Startpoint from "./Components/Startpoint";
 
 function App() {
   return (
     <BrowserRouter>
+      <Startpoint />
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
