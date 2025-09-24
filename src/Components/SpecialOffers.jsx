@@ -8,9 +8,13 @@ function SpecialsOffers() {
   useEffect(() => {
     setLoading(true);
     
-    fetch("https://e199178e-e62a-4531-a27d-2bf65a0df7fa-00-5vi4k6a5esdc.picard.replit.dev/specialOffers")
+        fetch("https://api.jsonbin.io/v3/b/68d46b41d0ea881f4089b3ab/latest", {
+  headers: {
+    "X-Master-Key": "$2a$10$hg990DNl3TwGhbMCFo962urVcG2Hpxy4QeZUMYBZuM3zKi1jD9tS2"
+  }
+})
       .then((res) => res.json())
-      .then((data) => setOffers(data))
+      .then((data) => setOffers(data.record.specialOffers))
       .catch((err) => console.error("Failed to fetch offers:", err))
       .finally(() => setLoading(false));
   }, []);

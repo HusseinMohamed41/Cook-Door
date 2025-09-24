@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import { RiDiscountPercentLine } from "react-icons/ri";
 import { useNavigate } from "react-router-dom";
@@ -30,7 +31,11 @@ function Menu() {
   useEffect(() => {
     setLoading(true);
 
-    fetch("https://e199178e-e62a-4531-a27d-2bf65a0df7fa-00-5vi4k6a5esdc.picard.replit.dev/products")
+    fetch("https://api.jsonbin.io/v3/b/68d46b41d0ea881f4089b3ab/latest", {
+  headers: {
+    "X-Master-Key": "$2a$10$hg990DNl3TwGhbMCFo962urVcG2Hpxy4QeZUMYBZuM3zKi1jD9tS2"
+  }
+})
       .then((res) => {
         if (!res.ok) {
           throw new Error(`HTTP error! Status: ${res.status}`);
@@ -38,8 +43,8 @@ function Menu() {
         return res.json();
       })
       .then((data) => {
-        setProducts(data);
-        setCategories(["All", ...new Set(data.map((item) => item.category))]);
+        setProducts(data.record.products);
+        setCategories(["All", ...new Set(data.record.products.map((item) => item.category))]);
       })
       .catch((error) => {
         console.error("❌ Error fetching products:", error);
