@@ -1,7 +1,8 @@
-
 import { useState, useEffect } from "react";
 import { RiDiscountPercentLine } from "react-icons/ri";
 import { useNavigate } from "react-router-dom";
+import ad from "../assets/images/ad.jpg"
+import ad2 from "../assets/images/ad2.jpg"
 
 function Menu() {
   const [products, setProducts] = useState([]);
@@ -100,12 +101,12 @@ function Menu() {
         {/* Styled Ad Image */}
         <div className="max-md:hidden mt-8 flex flex-col gap-10 overflow-hidden ">
           <img
-            src="./src/assets/images/ad.jpg"
+            src={ad}
             alt="adPhoto"
             className="w-full h-full object-cover rounded-2xl"
           />
           <img
-            src="./src/assets/images/ad2.jpg"
+            src={ad2}
             alt="adPhoto"
             className="w-full h-full object-cover rounded-2xl"
           />
