@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 
 function SpecialsOffers() {
   const [offers, setOffers] = useState([]);
-  const [selectedOffer, setSelectedOffer] = useState(null); // 👈 store clicked offer
-  const [loading, setLoading] = useState(true); // ✅ Loading state
+  const [selectedOffer, setSelectedOffer] = useState(null);
+  const [loading, setLoading] = useState(true); //Loading state
 
   useEffect(() => {
     setLoading(true);
@@ -80,7 +80,7 @@ function SpecialsOffers() {
         )}
       </div>
 
-      {/* Modal Popup */}
+      {/*Popup card */}
       {selectedOffer && (
         <div className="fixed inset-0 flex items-center justify-center bg-black/50 z-50">
           <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full p-6 relative animate-fadeIn">

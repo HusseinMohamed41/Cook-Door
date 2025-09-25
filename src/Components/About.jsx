@@ -16,7 +16,7 @@ function About() {
             className="absolute inset-0 w-full h-full object-cover"
           />
 
-          {/* Subtle Dark Overlay */}
+          {/* Dark Overlay */}
           <div className="absolute inset-0 bg-black/50"></div>
 
           {/* Text Content */}

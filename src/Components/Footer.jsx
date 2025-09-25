@@ -4,7 +4,6 @@ import logo from "../assets/images/logo.png"
 function Footer() {
   return (
     <footer className="bg-[#1a1a1a] text-gray-300 mt-10">
-      {/* Main Footer */}
       <div className="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-3 gap-10 text-center md:text-left">
         
         {/* Brand */}

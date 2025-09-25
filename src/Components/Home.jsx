@@ -20,7 +20,7 @@ function Home() {
             a passion that is reflected in  every aspect of the restaurant's operations.
           </p>
 
-          {/* Buttons */}
+          {/* Menu Button */}
           <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <Link
               to="/Menu"
@@ -51,6 +51,7 @@ function Home() {
           />
         </div>
       </div>
+      {/* Special offers Section */}
       <SpecialOffers />
     </section>
   )

@@ -29,7 +29,6 @@ function Menu() {
   };
 
 
-
   useEffect(() => {
     setLoading(true);
 
@@ -168,7 +167,7 @@ function Menu() {
         </div>
       </section>
 
-      {/* Modal (Pop-up) */}
+      {/*Pop-up card */}
       {selectedProduct && (
         <div className="fixed inset-0 bg-[#00000087] flex items-center justify-center p-4 z-50">
           <div className="bg-white rounded-2xl shadow-lg max-w-md w-full relative">
